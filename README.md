@@ -37,7 +37,7 @@ The cleaned datasets used in this project are hosted on Google Drive.
  [**Click here to access the data**](https://drive.google.com/drive/folders/1GrS6TwpOqdmMyVTh6MO642YxO4y1Peqm?usp=sharing)  
 
 
-Download the files and place them in the `data/` directory before running any notebooks.
+Download the files and place them in the `data/` directoryroot of the project folder before running any notebooks.
 
 ---
 
