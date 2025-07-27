@@ -1,83 +1,95 @@
+#  Transborder Freight Analysis Project
+
+This project analyzes transborder freight data between the U.S., Canada, and Mexico to uncover trends, inefficiencies, and insights across transport modes, commodities, trade partners, and corridors. It applies data science techniques to inform infrastructure planning, trade strategy, and policy decisions.
+
+---
+
+##  Project Objectives
+
+- Analyze freight movement patterns by transport mode, region, commodity, and time.
+- Identify operational inefficiencies and cost anomalies.
+- Assess environmental and safety-related impacts.
+- Evaluate the effects of external shocks (e.g., policy changes).
+- Provide actionable recommendations for stakeholders.
+
+---
+
+##  Business Questions
+
+1. **What are the dominant transport modes (road, rail, air, water) over time, and how do their freight volumes compare annually and monthly?**  
+   - 1.1. How does the distribution of freight volume vary by commodity type over time and mode?  
+   - 1.2. Which origin-destination (OD) pairs or corridors have the highest freight movement, and how have they changed over time?
+
+2. **Which commodities contribute the most to freight value and volume across different modes and trade partners (US, Canada, Mexico)?**
+
+3. **Which origin-destination (OD) corridors or regions handle the largest freight volumes, and how have these patterns changed over time?**
+
+4. **Are there inefficiencies or cost anomalies in freight transport, such as unusually high freight charges relative to shipment weight or value?**
+
+5. **Which commodities have seen the most growth or decline in freight volume or value in the past 5 years?**
+
+---
 
 
-# TransBorder Freight Data Analysis
+## 🔗 Data Access
 
-This project explores freight transportation data from the Bureau of Transportation Statistics to identify inefficiencies, patterns, and environmental impacts across various transportation modes.
+The cleaned datasets used in this project are hosted on Google Drive.  
+ [**Click here to access the data**](https://drive.google.com/drive/folders/1GrS6TwpOqdmMyVTh6MO642YxO4y1Peqm?usp=sharing)  
 
-## Tools Used
 
-- **Python** – Data analysis and visualization
-- **Pandas & NumPy** – Data cleaning and wrangling
-- **Matplotlib & Seaborn** – Exploratory data visualization
-- **Plotly** – Interactive visualization
-- **Jupyter Notebook** – Analysis and code documentation
+Download the files and place them in the `data/` directory before running any notebooks.
 
-## Business Goals
-- Understand freight movement patterns
-- Identify operational inefficiencies
-- Evaluate environmental impacts
-- Analyze safety incidents
-- Investigate economic disruptions
-- Provide data-driven recommendations
+---
 
-## Analytical Questions (Based on Business Goals)
+##  Setup Instructions
 
- 1. Uncover Freight Movement Patterns : Explore how, what, where, and when freight is transported.
+### 1. Clone the repository
 
-1.1. What are the yearly and monthly trends in freight volume across road, rail, air, and water?
 
-1.2. Which transportation modes are most dominant in specific regions or states?
+git clone https://github.com/your-username/transborder-freight-analysis.git
+cd transborder-freight-analysis
 
-1.3. How does the distribution of freight volume vary by commodity type over time and mode?
+### 2. Create a virtual environment
 
-1.4. Which origin-destination (OD) pairs or corridors have the highest freight movement, and how have they changed over time?
+python -m venv env
+# Activate the environment
+source env/bin/activate        # On Mac/Linux
+env\Scripts\activate           # On Windows
 
-2. Identify Operational Inefficiencies : Discover where resources are under- or over-utilized.
+### 3. Install dependencies
 
-2.1. Which ports or entry points have the highest delays relative to freight volume?
+pip install -r requirements.txt
 
-2.2. Are there modes or regions where capacity appears underutilized despite high demand elsewhere?
+### 4. Download the data
+Use the Google Drive link to download the datasets.
 
-2.3. How does freight flow correlate with known infrastructure bottlenecks or maintenance schedules?
 
-2.4. Do certain transport modes consistently underperform in terms of delivery time or throughput efficiency?
 
-3. Analyze Environmental Impact : Assess sustainability across freight systems.
+ ## Dependencies
+This project uses the following Python libraries:
 
-3.1. Which transportation modes are associated with the highest fuel usage and CO₂ emissions?
+pandas
 
-3.2. How has the environmental impact of each mode changed over time?
+numpy
 
-3.3. Which regions or routes show the worst emissions-to-tonnage ratios?
+matplotlib
 
-3.4. What opportunities exist for mode-shifting (e.g., road to rail) to reduce emissions?
+seaborn
 
-4. Safety and Risk Assessment: Understand incident patterns and safety risks.
+plotly 
 
-4.1. Which transportation modes have the highest frequency of safety incidents or accidents?
+All dependencies are listed in requirements.txt.
 
-4.2. Are there seasonal or temporal patterns in freight-related safety incidents?
+🙋‍♀️ Contributors
+Feel free to fork, submit pull requests, or create issues to suggest improvements.
 
-4.3. What are the most common causes of safety incidents across different transport modes?
+📬 Contact
+For questions or feedback, please reach out via:
+📧 agyirnanagmail.com
 
-4.4. Do high-volume routes correlate with a higher rate of safety incidents?
 
-5. Analyze Economic Disruptions: Examine how external factors affect freight.
 
-5.1. How did major events like COVID-19 or trade policy changes impact freight volumes and modal shares?
 
-5.2. Which commodities or regions were most affected by international disruptions or tariffs?
 
-5.3. Is there a correlation between fuel price fluctuations and modal freight distribution?
 
-5.4. How have freight costs and volumes changed before, during, and after significant economic events?
 
-6. Provide Data-Driven Recommendations: Summarize insights to guide improvements.
-
-6.1. What infrastructure investments should be prioritized based on freight volume and congestion?
-
-6.2. Which modes or corridors can be optimized for better environmental and economic performance?
-
-6.3. What policy interventions could reduce safety incidents and improve cross-border logistics?
-
-6.4. How can BTS support sustainable growth in underutilized transport corridors or ports?
