@@ -63,7 +63,8 @@ pip install -r requirements.txt
 ### 4. Download the data
 Use the Google Drive link to download the datasets.
 
-**Project Workflow**
+###**Project Workflow**
+
 Step 1: Data Understanding
 Loaded .csv data chunks from deduped files.
 
