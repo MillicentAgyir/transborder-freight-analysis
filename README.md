@@ -63,6 +63,48 @@ pip install -r requirements.txt
 ### 4. Download the data
 Use the Google Drive link to download the datasets.
 
+**Project Workflow**
+Step 1: Data Understanding
+Loaded .csv data chunks from deduped files.
+
+Reviewed features like MODE, SHIPWT, COMMODITY2, VALUE.
+
+Identified trends and inconsistencies.
+
+Step 2: Data Cleaning
+- Removed nulls and filled relevant columns.
+
+- Converted data types, deduplicated entries.
+
+- Validated row counts per chunk.
+
+Step 3: Exploratory Data Analysis (EDA)
+Aggregated yearly and monthly shipment volumes.
+
+Compared freight volume by mode.
+
+Analyzed commodity distribution across countries.
+
+Step 4: Business Questions Answered
+Q1: Dominant Transport Modes & OD Corridors
+
+Q2: Top Commodities by Value & Volume
+
+Q3: Largest Freight Corridors
+
+Q4: Freight Inefficiencies
+
+Q5: Growth/Decline in Commodities
+
+Tools & Technologies
+Python (pandas, seaborn, matplotlib)
+
+Jupyter Notebooks
+
+Google Drive (Data Storage)
+
+Git & GitHub (Version Control)
+
 
 
  ## Dependencies
