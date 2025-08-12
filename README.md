@@ -87,6 +87,7 @@ Compared freight volume by mode.
 Analyzed commodity distribution across countries.
 
 Step 4: Business Questions Answered
+
 Q1: Dominant Transport Modes & OD Corridors
 
 Q2: Top Commodities by Value & Volume
@@ -128,7 +129,8 @@ Feel free to fork, submit pull requests, or create issues to suggest improvement
 
 📬 Contact
 For questions or feedback, please reach out via:
-📧 agyirnanagmail.com
+📧 agyirnana@gmail.com
+
 
 
 
