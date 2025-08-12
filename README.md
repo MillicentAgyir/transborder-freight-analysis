@@ -20,7 +20,7 @@ This project analyzes transborder freight data between the U.S., Canada, and Mex
    - 1.1. How does the distribution of freight volume vary by commodity type over time and mode?  
    - 1.2. Which origin-destination (OD) pairs or corridors have the highest freight movement, and how have they changed over time?
 
-2. **Which commodities contribute the most to freight value and volume across different modes and trade partners (US, Canada, Mexico)?**
+2. **Which commodities contribute the most to freight value and volume across different trade partners (US, Canada, Mexico)?**
 
 3. **Which origin-destination (OD) corridors or regions handle the largest freight volumes, and how have these patterns changed over time?**
 
@@ -129,6 +129,7 @@ Feel free to fork, submit pull requests, or create issues to suggest improvement
 📬 Contact
 For questions or feedback, please reach out via:
 📧 agyirnanagmail.com
+
 
 
 
